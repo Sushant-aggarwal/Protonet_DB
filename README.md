@@ -2,7 +2,7 @@
 This is an implementation of Protonet + Differentiable Binarization in Keras and Tensorflow,
 
 ## Build Dataset
-Download the converted ground-truth and data from here https://drive.google.com/drive/folders/12ozVTiBIqK8rUFWLUrlquNfoQxL2kAl7. The images of each dataset can be obtained from their official website.
+Download the converted ground-truth and data from here https://drive.google.com/drive/folders/12ozVTiBIqK8rUFWLUrlquNfoQxL2kAl7. 
 ```
   datasets/total_text/train_images
   datasets/total_text/train_gts
@@ -11,6 +11,9 @@ Download the converted ground-truth and data from here https://drive.google.com/
   datasets/total_text/test_gts
   datasets/total_text/test_list.txt
 ```
+## Model
+`model.py`
+The model is currently set to not use attention module if you want to use it just uncomment that attention part in the code.
 
 ## Train
 `python train.py`

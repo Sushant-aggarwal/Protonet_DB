@@ -14,7 +14,7 @@ Download the converted ground-truth and data from here https://drive.google.com/
 
 ## Train
 `python train.py`
-Refer to this file to set the checkpoints and tuning the hyperparameters and also setting up to data path.
+Refer to this file to set the checkpoints and tuning the hyperparameters and also setting up the data path.
 
 ## Test
 `python inference.py`
